@@ -1,13 +1,15 @@
+extensions = ["hardLineBreak"]
+
 # Site settings
-baseurl = "/"
+baseurl = "https://blog.ryangeyer.me/"
 languageCode = "en-us"
-title = "Okkur - Syna"
+title = "Make Enterprise IT Go Brrrr..."
 theme = "syna"
 enableGitInfo = true
 version = "0.17.3"
 
 # Google Analytics tracking
-googleAnalytics = ""
+googleAnalytics = "G-QT6CDSDX33"
 
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
@@ -24,19 +26,19 @@ lastmod = ["lastmod", ":git", "date"]
      unsafe = true
 
 [params]
-  name = "Okkur Labs"
-  description = "Open Source Theme for your next project"
+  name = "Ryan Geyer"
+  description = "Make Enterprise IT Go Brrrr..."
 
   [params.style]
     #background = "secondary"
 
   # Theme customizations
   # Assets relative to 'static/'
-  [params.custom]
-    favicon = "favicon.ico"
-    favicon_ico_sizes = "16x16 32x32"
-    favicon_png = "favicon.png"
-    favicon_svg = "favicon.svg"
+  # [params.custom]
+  #   favicon = "favicon.ico"
+  #   favicon_ico_sizes = "16x16 32x32"
+  #   favicon_png = "favicon.png"
+  #   favicon_svg = "favicon.svg"
 
   # Piwik tracking
   [params.analytics.piwik]
@@ -53,7 +55,7 @@ lastmod = ["lastmod", ":git", "date"]
     pro = false
 
   [params.colors]
-    primary = "#00838F"
+    primary = "#A15277"
     secondary = "#868e96"
     success = "#008f54"
     info = "#00c9dc"
@@ -71,48 +73,70 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 10
 
 [[menu.main]]
-  url = "/about"
-  name = "About Us"
+  url = "/blog"
+  name = "Blog"
   weight = 20
 
-[[menu.main]]
-  url = "#contact"
-  name = "Contact"
-  weight = 30
+# [[menu.main]]
+#   url = "/about"
+#   name = "About Me"
+#   weight = 30
+
+# [[menu.main]]
+#   url = "#contact"
+#   name = "Contact"
+#   weight = 40
 
 [[menu.footer]]
-  url = "#"
-  name = "Link"
+  url = "https://cv.ryangeyer.com"
+  name = "CV/Resume"
   weight = 10
 
 [[menu.footer]]
-  url = "#"
-  name = "Long Link"
+  url = "https://github.com/rgeyer"
+  name = "Github"
+  weight = 20
+
+[[menu.footer]]
+  url = "https://blog.ryangeyer.com/categories/cloud-computing/"
+  name = "My Archived Cloud Blog"
   weight = 30
 
 [[menu.footer]]
-  url = "#"
-  name = "Tiny Link"
-  weight = 30
+  url = "https://www.flexera.com/blog/cloud/build-a-private-cloud-in-your-garage/"
+  name = "Garage Cloud Circa 2012"
+  weight = 40
+#
+# [[menu.copyright_footer]]
+#   url = "/about"
+#   name = "About Us"
+#   weight = 10
+#
+# [[menu.copyright_footer]]
+#   url = "#"
+#   name = "Another Link"
+#   weight = 30
 
-[[menu.copyright_footer]]
-  url = "/about"
-  name = "About Us"
+[[menu.footer_social]]
   weight = 10
-
-[[menu.copyright_footer]]
-  url = "#"
-  name = "Another Link"
-  weight = 30
+  name = "github"
+  pre = "fab fa-github-alt"
+  url = "https://github.com/rgeyer"
 
 [[menu.footer_social]]
   weight = 20
-  name = "facebook"
-  pre = "fab fa-facebook-f"
-  url = "#"
+  name = "twitter"
+  pre = "fab fa-twitter"
+  url = "https://twitter.com/rjgeyer"
 
 [[menu.footer_social]]
   weight = 30
   name = "linkedin"
   pre = "fab fa-linkedin-in"
-  url = "#"
+  url = "https://www.linkedin.com/in/rjgeyer/"
+
+[[menu.footer_social]]
+  weight = 40
+  name = "instagram"
+  pre = "fab fa-instagram"
+  url = "https://www.instagram.com/rjgeyer/"
