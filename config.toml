@@ -1,4 +1,4 @@
-extensions = ["hardLineBreak"]
+publishDir = "docs"
 
 # Site settings
 baseurl = "https://blog.ryangeyer.me/"
