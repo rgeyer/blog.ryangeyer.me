@@ -9,7 +9,7 @@ enableGitInfo = true
 version = "0.17.3"
 
 # Google Analytics tracking
-googleAnalytics = "G-QT6CDSDX33"
+googleAnalytics = "UA-185197551-1"
 
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
