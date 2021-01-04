@@ -10,7 +10,7 @@ title = "Ender 3 Upgrades Pt. 1"
 # summary = "Adding a PEI removable bed, a Hero Me Gen5, and an 18mm inductive ABL sensor to the Ender 3"
 
 [asset]
-  image = "blog/Screen Shot 2020-12-21 at 8.34.35 PM.png"
+  image = "blog/ender3-upgrade-pt1/Screen Shot 2020-12-21 at 8.34.35 PM.png"
   text = "PrusaSlicer preview of Hero Me Gen 5 Parts"
 +++
 

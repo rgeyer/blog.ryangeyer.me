@@ -9,7 +9,7 @@ weight = 100
 display_date = true
 
 [asset]
-  image = "blog/PXL_20201221_221010894.jpg"
+  image = "blog/tasmota-for-topgreener-tgwf115pqm/PXL_20201221_221010894.jpg"
 +++
 
 In an ongoing effort to provide automation, and generally gain insights over what's happening in my home, I've acquired several of these TopGreener smartplugs.
