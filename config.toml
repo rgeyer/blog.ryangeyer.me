@@ -1,5 +1,3 @@
-publishDir = "docs"
-
 # Site settings
 baseurl = "https://blog.ryangeyer.me/"
 languageCode = "en-us"
