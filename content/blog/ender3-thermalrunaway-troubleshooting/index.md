@@ -4,6 +4,7 @@ weight = "100"
 date = "2021-02-11"
 display_date = true
 title = "Ender 3 Thermal Runaway Troubleshooting"
+comments = true
 
 categories = ["Ender 3"]
 

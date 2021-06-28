@@ -4,6 +4,7 @@ weight = "100"
 date = "2021-01-04"
 display_date = true
 title = "Ender 3 Upgrades Pt. 2 (Hero Me Gen5 & PEI Spring Sheet)"
+comments = true
 
 categories = ["Ender 3", "Projects"]
 

@@ -7,6 +7,7 @@ draft = true
 fragment = "content"
 weight = 100
 display_date = true
+comments = true
 
 [asset]
   image = "blog/tasmota-for-topgreener-tgwf115pqm/PXL_20201221_221010894.jpg"

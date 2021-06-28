@@ -4,6 +4,7 @@ weight = "100"
 date = "2021-01-15"
 display_date = true
 title = "Ender3 Upgrade Pt.3 (Electronics, Firmware, and Tuning)"
+comments = true
 
 categories = ["Ender 3", "Projects"]
 

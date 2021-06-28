@@ -9,6 +9,9 @@ version = "0.17.3"
 # Google Analytics tracking
 googleAnalytics = "UA-185197551-1"
 
+# Disqus shortname
+disqusShortname = "blogryangeyerme"
+
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [outputs]

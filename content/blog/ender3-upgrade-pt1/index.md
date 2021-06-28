@@ -7,6 +7,7 @@ display_date = true
 categories = ["Ender 3","Projects"]
 
 title = "Ender 3 Upgrades Pt. 1"
+comments = true
 # summary = "Adding a PEI removable bed, a Hero Me Gen5, and an 18mm inductive ABL sensor to the Ender 3"
 
 [asset]
